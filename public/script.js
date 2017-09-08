@@ -1,4 +1,6 @@
 $(document).ready(function(){
+	zero("notaMin");
+	zero("promedio");
 	if($(window).innerWidth() <= 751) {
 		$("#minimaPasar").text("Minimo");
 		$("#notaPract").text("practica");
@@ -28,6 +30,7 @@ $("#teorico").change(function(){
 $("#btn-calcular").click(function(){
 
 	if(verificar()){
+		zero("notaMin");
 		var 	prctjTeorico 	=	parseInt($("#teorico").val()) / 100;
 		var 	prctjPractico 	=	parseInt($("#practico").val()) / 100;
 
@@ -49,6 +52,15 @@ $("#btn-calcular").click(function(){
 		}
 	}else{
 		alert("Tiene algún campo no lleno");
+		//enceramos todos los campos
+		zero("notaMin");
+		zero("promedio");
+		zero("primerP");
+		zero("segundoP");
+		zero("tercerP");
+		zero("notaPractica");
+		nullify("practico");
+		nullify("teorico");
 	}
 })
 
@@ -99,4 +111,12 @@ function verificar(){
 
 	return true;
 
+}
+
+function zero(idInput){
+	$("#" + idInput).val(0);
+}
+
+function nullify(idInput){
+	$("#" + idInput).val('');
 }
