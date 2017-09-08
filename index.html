@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+	<meta name="description" content="Calculadora para sacar el promedio de ESPOL.">
+	<meta name="keywords" content="Calculadora, ESPOL, promedio, herramienta, calculadora promedio, calculadora espol">
+	<meta name="author" content="Xavier Idrovo xidrovo@hotmail.com">
+
+	<title>Calculadora de promedios</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+	<link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+	<div class="container">
+		<header>
+			<nav>
+				<div class="nav-wrapper valign-wrapper">
+				<a href="" class="brand-logo center " id="titulo">Calculadora de promedios</a>
+				</div>
+			</nav>
+		</header>
+		<section>
+			<div class="blank"></div>
+			<!-- Fila de los títulos-->
+			<div class="row">
+				<div class="col s6 m6"><p class="center-align">Nota teórica</p></div> <div class="col s2 m2"><p class="center-align">Nota práctica</p></div>
+				<div class="col s2 m2"><p class="center-align">Resultado</p></div> <div class="col s2 m2"><p>Estado</p></div>
+			</div>
+			<!-- Fila de los inputs porcentuales -->
+			<div class="row">
+				<div class="input-field col s6 m6">
+					<input placeholder="" id="teorico" type="number" class="validate center-align" min=0 max=100>
+					<label for="teorico" class="flow-text">Porcentaje teórico</label>
+				</div>
+				<div class="input-field col s2 m2">
+					<input placeholder="" id="practico" type="number" class="validate center-align" min=0 max=100 disabled>
+					<label for="practico">Porcentaje Práctico</label>
+				</div>
+				<div class="input-field col s2 m2">
+					<input placeholder="" id="notaMin" type="number" class="validate center-align" min=0 max=100 disabled>
+					<label for="notaMin" class="flow-text" id="minimaPasar">nota mínima para pasar</label>
+				</div>
+				<div class="input-field col s2 m2">
+					<p id="estado"></p>
+				</div>
+			</div>
+			<!-- Fila de las notas-->
+			<div class="row">
+				<div class="input-field col s2 m2">
+					<input placeholder="" id="primerP" type="number" class="validate center-align" min=0 max=100 value="0">
+					<label for="primerP" id="primer">Primer parcial</label>
+				</div>
+				<div class="input-field col s2 m2">
+					<input placeholder="" id="segundoP" type="number" class="validate center-align" min=0 max=100 value="0">
+					<label for="segundoP" id="segundo">Segundo parcial</label>
+				</div>
+				<div class="input-field col s2 m2">
+					<input placeholder="" id="tercerP" type="number" class="validate center-align" min=0 max=100 value="0">
+					<label for="tercerP" id="mejoramiento">Mejoramiento</label>
+				</div>
+				<div class="input-field col s2 m2">
+					<input placeholder="" id="notaPractica" type="number" class="validate center-align" min=0 max=100 value="0">
+					<label for="notaPractica" id="notaPract">Nota práctica</label>
+				</div>
+				<div class="input-field col s2 m2">
+					<input placeholder="" id="promedio" type="number" class="validate center-align" min=0 max=100 disabled>
+					<label for="promedio" id="prom">Promedio final</label>
+				</div>
+			</div>
+			<div class="col s12 center"><a class="waves-effect waves-light #0097a7 cyan darken-2 btn" id="btn-calcular">¡Calcular!</a></div>
+		</section>
+	</div>
+	<footer>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+		<script type="text/javascript" src="./script.js"></script>
+	</footer>
+</body>
+</html>
