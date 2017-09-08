@@ -12,7 +12,9 @@ $(document).ready(function(){
 	}
 })
 
-
+//
+//Funciones que se llaman cada que cambian las vairables de abajo
+//
 $("#teorico").change(function(){
 
 	//Me aseguro que el valor de teórico esté entre 0 y 100
@@ -25,6 +27,27 @@ $("#teorico").change(function(){
 	//Calculamos el valor del porcentaje práctico 
 	$("#practico").val(100 - $("#teorico").val())
 
+});
+$("#primerP").change(function(){
+	restringirMaxMin("primerP");
+})
+$("#segundoP").change(function(){
+	restringirMaxMin("segundoP");
+})
+$("#tercerP").change(function(){
+	restringirMaxMin("tercerP");
+})
+$("#notaPractica").change(function(){
+	restringirMaxMin("notaPractica");
+})
+//
+//Fin de change funciones.
+//
+
+$(".validate").keyup(function(event){
+	if(event.keyCode == 13){
+        $("#btn-calcular").click();
+    }
 })
 
 $("#btn-calcular").click(function(){
@@ -119,4 +142,14 @@ function zero(idInput){
 
 function nullify(idInput){
 	$("#" + idInput).val('');
+}
+
+//Esta funcion evita que los valores de los input supere a 100
+//o sea menor a 0
+function restringirMaxMin(idInput){
+	if($("#" + idInput).val() > 100)
+		$("#" + idInput).val(100);
+	
+	if($("#" + idInput).val() < 1)
+		$("#" + idInput).val(0)
 }
