@@ -1,6 +1,12 @@
 body{
 	background-color: #d7dbd7;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
+main {
+	flex: 1 0 auto;
+	}
 nav{
 	height: 15vh;
 	margin: auto;
@@ -8,8 +14,14 @@ nav{
 }
 .container{
 	width: 85%;
+	min-height: 80vh;
 	background-color: rgba(255,255,255,1);
-	min-height: 100vh;
+}
+.pseudoContainer{
+	width: 84%;
+	padding-left: 2%;
+	padding-right: 2%;
+	margin: auto;
 }
 
 .container .row{
@@ -26,6 +38,9 @@ nav{
 			font-size: 1em;
 		}
 		.container{
+			width: 100%;
+		}
+		.pseudoContainer{
 			width: 100%;
 		}
 	}
