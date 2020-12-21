@@ -4,7 +4,7 @@
   "scripts": {
     "build": "NODE_ENV=production webpack",
     "dev": "webpack-dev-server --content-base public",
-    "start": "NODE_ENV=development webpack-dev-server --content-base public --mode development",
+    "start": "NODE_ENV=development webpack --mode development",
     "surge": "surge ./public https://beta-calculadora-promedio.surge.sh/"
   },
   "devDependencies": {
