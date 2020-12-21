@@ -4,6 +4,7 @@
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack",
     "dev": "webpack-dev-server --content-base public",
+    "start": "cross-env NODE_ENV=development webpack-dev-server --mode development",
     "surge": "surge ./public https://beta-calculadora-promedio.surge.sh/"
   },
   "devDependencies": {
