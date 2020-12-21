@@ -70,3 +70,17 @@ function serve() {
 		}
 	};
 }
+
+// Dev dependencies for package.json
+
+// "@rollup/plugin-commonjs": "^17.0.0",
+// "@rollup/plugin-node-resolve": "^7.0.0",
+// "rollup-plugin-livereload": "^1.0.0",
+// "rollup-plugin-svelte": "^5.0.3",
+// "rollup-plugin-terser": "^7.0.2",
+
+// Scripts
+
+// "build": "rollup -c",
+// "dev": "rollup -c -w",
+// "start": "sirv public",
