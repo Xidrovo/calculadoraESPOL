@@ -42,22 +42,30 @@
             class={`footer flex ${!matches ? 'flex-col' : 'flex-row'} justify-between `}>
             <div class={`${matches ? 'w-half' : 'w-full'} desc-text`}>
                 <p>
-                    Herramienta para calcular los promedios de la ESPOL. Las
-                    notas son colocadas sobre 100 y calculado luego de acuerdo
-                    al porcentaje práctico/teórico.
+                    Esta herramienta te ayuda a calcular el promedio de las
+                    calificaciones de tus materias.
+                </p>
+                <p>
+                    Las calificaciones se ingresan sobre 100 y se calcula su
+                    promedio de acuerdo al porcentaje práctico/teórico de la
+                    materia.
                 </p>
                 <strong>Nuevo</strong>
                 <p>
-                    Esta aplicación permite ser instalada en celulares. Esto
-                    gracias al poder de las
+                    Esta aplicación puede ser instalada en teléfono mobiles
+                    gracias al .
                     <a
                         href="https://developer.mozilla.org/es/docs/Web/Progressive_web_apps"
                         target="_blank">Progresive Web App (PWA)</a>. Si
                     <strong>NO</strong>
                     aceptaste la instalación puedes borrar caché e intentar de
-                    nuevo. ¡Gracias!
+                    nuevo, revisa
+                    <a
+                        href="https://github.com/Xidrovo/calculadoraESPOL"
+                        target="_blank"><strong>aquí</strong></a>
+                    cómo hacerlo. ¡Gracias!
                 </p>
-                <p><strong>Creador:</strong> Xavier Idrovo Vallejo</p>
+                <p>Creado por Xavier Idrovo Vallejo</p>
             </div>
             <div class="flex flex-col social">
                 <div class="link-title">Contacto</div>
