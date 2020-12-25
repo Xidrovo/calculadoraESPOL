@@ -152,7 +152,7 @@
 							<div>
 								<label class="flex flex-col" for="second">
 									<p class="text-label" Primer>
-										Parcial sobre 100
+										Segundo Parcial sobre 100
 									</p>
 									<input
 										on:input|preventDefault={handle_change}
@@ -167,7 +167,7 @@
 							class={`flex ${matches ? 'flex-row' : 'flex-col mb-2'}`}>
 							<div class="mr-4">
 								<label class="flex flex-col" for="practique">
-									<p class="text-label">Nota prácitca</p>
+									<p class="text-label">Nota práctica</p>
 									<input
 										on:input|preventDefault={handle_change}
 										name="practique"

@@ -56,13 +56,14 @@
                     gracias al .
                     <a
                         href="https://developer.mozilla.org/es/docs/Web/Progressive_web_apps"
+                        rel="noopener noreferrer"
                         target="_blank">Progresive Web App (PWA)</a>. Si
                     <strong>NO</strong>
-                    aceptaste la instalación puedes borrar caché e intentar de
-                    nuevo, revisa
+                    aceptaste la instalación puedes
                     <a
                         href="https://github.com/Xidrovo/calculadoraESPOL"
-                        target="_blank"><strong>aquí</strong></a>
+                        rel="noopener noreferrer"
+                        target="_blank"><strong>borrar caché e intentar de nuevo</strong></a>
                     cómo hacerlo. ¡Gracias!
                 </p>
                 <p>Creado por Xavier Idrovo Vallejo</p>
@@ -72,9 +73,11 @@
                 <div class="flex flex-col social-media">
                     <a
                         href="https://github.com/Xidrovo"
+                        rel="noopener noreferrer"
                         target="_blank">Github</a>
                     <a
                         href="https://www.linkedin.com/in/xavier-idrovo-vallejo-34a4b2119/"
+                        rel="noopener noreferrer"
                         target="_blank">LinkedIn</a>
                     <div>Email: Xidrovo@hotmail.com</div>
                 </div>
