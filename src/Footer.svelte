@@ -66,7 +66,7 @@
                         target="_blank"><strong>borrar caché e intentar de nuevo</strong></a>
                     cómo hacerlo. ¡Gracias!
                 </p>
-                <p>Creado por Xavier Idrovo Vallejo</p>
+                <p>Creado por Xavier Idrovo Vallejo y Carlos Carvajal Villegas</p>
             </div>
             <div class="flex flex-col social">
                 <div class="link-title">Contacto</div>
@@ -75,10 +75,6 @@
                         href="https://github.com/Xidrovo"
                         rel="noopener noreferrer"
                         target="_blank">Github</a>
-                    <a
-                        href="https://www.linkedin.com/in/xavier-idrovo-vallejo-34a4b2119/"
-                        rel="noopener noreferrer"
-                        target="_blank">LinkedIn</a>
                     <div>Email: Xidrovo@hotmail.com</div>
                 </div>
             </div>
