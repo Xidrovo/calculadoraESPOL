@@ -19,4 +19,4 @@ Este candadito abrirá lo siguiente. debe presionar en "site settings" o configu
 Por último se abrirá esta ventana. PResionar en Clear&Reset y  se borrará la caché. Finalizado esto podrá instalar la aplicación.
     ![alt text](https://i.imgur.com/JPvEcZR.jpg)
 
-   [Enlace]: <https://promedioespol.herokuapp.com>
+   [Enlace]: <https://espolpromedio.surge.sh/>
