@@ -2,21 +2,10 @@
 
 Calculadora de promedios para ESPOL. Versión actualizada mucho más ligera y responsive. [Enlace]
 
-# New Features!
-  - Aplicación más ligera y rápido
-  - Mejor estilo tanto mobile como desktop
-  - ¡Versión en mobile ahora puede ser instalado!
+# Nuevo enlace
+Cómo podrían notar el dominio cambió de lugar, así que para poder usa la calculadora de promedios ESPOL se ha puesto un nuevo enlace, este nuevo enlace te permitirá poder calcular los promedios de ESPOL y poder así sacar el promedio ESPOL para tu semestre
 
-### ¿Cómo instalar?
-En celulares la aplicación mandará un cartel indicando la instalación del mismo. En caso de no ser aceptado es necesario borrar caché. 
-
-### ¿Cómo borar Caché?
-Para borrar caché puedes seguir los siguientes pasos. En chrome presiona sobre el candadito alado de la url
-    ![alt text](https://i.imgur.com/DvSq0wk.jpg) 
-    
-Este candadito abrirá lo siguiente. debe presionar en "site settings" o configuraciones del sitio
-    ![alt text](https://i.imgur.com/vdTFIlM.jpg)
-Por último se abrirá esta ventana. PResionar en Clear&Reset y  se borrará la caché. Finalizado esto podrá instalar la aplicación.
-    ![alt text](https://i.imgur.com/JPvEcZR.jpg)
+# Sobre esta página
+Al ser un nuevo dominio gratuito es posible que no se pueda encontrar de forma fácil, así que por favor para poder usar el enlace de la calculadora de promedios ESPOL puedes ir a la págigna enlasada aquí [Enlace] o también allá arriba
 
    [Enlace]: <https://espolpromedio.surge.sh/>
